@@ -2,7 +2,7 @@ import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
 
 const enviarMensajeWhatsApp = () => {
   const mensaje = '¡Hola! Estoy interesado en tu perfil profesional';
-  const url = `https://wa.me/5216674510099/?text=${encodeURIComponent(mensaje)}`;
+  const url = `https://wa.me/+5216674510099/?text=${encodeURIComponent(mensaje)}`;
   window.open(url, '_blank');
 };
 
