@@ -1,8 +1,8 @@
 
 
-export const HERO_CONTENT = "IOS Developer, con más de 10 años de experiencia en aplicaciones con Swift/SwiftUI";
+export const HERO_CONTENT = "+10 años de experiencia en aplicaciones con Swift/SwiftUI";
 
-export const ABOUT_TEXT = "+10 años de experiencia como desarrollador ios. He trabajado en diferentes puestos: Desde desarrollador hasta chapter lead de equipos de más de 25 desarrolladores";
+export const ABOUT_TEXT = "+10 años de experiencia como desarrollador iOS. He trabajado en diferentes puestos: Desde desarrollador hasta chapter lead de equipos de más de 25 desarrolladores";
 
 export const EXPERIENCIA = [
     {
