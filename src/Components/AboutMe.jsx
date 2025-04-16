@@ -13,7 +13,13 @@ const AboutMe = () => {
             Sobre Mí
         </motion.h2>
         <div className="p-6">
-          
+        <motion.p 
+            whileInView={{opacity: 1, x: 0}}
+            initial={{opacity: 0, x: 100}}
+            transition={{duration: 1}}
+            className=" text-xl  text-gray-700">
+            {ABOUT_TEXT}
+          </motion.p>
         </div>
       </section>
     );
