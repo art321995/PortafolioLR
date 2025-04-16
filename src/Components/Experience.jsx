@@ -1,27 +1,14 @@
 import { BriefcaseIcon } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import { EXPERIENCIA } from '../Constants';
 
 const Experience = () => {
-  const experiences = [
-    {
-      title: "Desarrollador Full Stack Senior",
-      company: "Empresa Tech",
-      period: "2020 - Presente",
-      description: "Desarrollo de aplicaciones web usando React, Node.js y MongoDB. Liderazgo de equipo y arquitectura de soluciones.",
-    },
-    {
-      title: "Desarrollador Frontend",
-      company: "Startup Innovadora",
-      period: "2018 - 2020",
-      description: "Implementación de interfaces de usuario responsivas y optimización del rendimiento de aplicaciones web.",
-    },
-  ];
+  
 
   return (
     <section className="fade-in">
       <h2 className="section-title">Experiencia</h2>
       <div className="space-y-4">
-        {experiences.map((exp, index) => (
+        {EXPERIENCIA.map((exp, index) => (
           <div key={index} className="p-6">
             <div className="flex items-start gap-4">
               <div className="p-2 bg-primary/10 rounded-full">

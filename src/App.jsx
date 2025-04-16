@@ -1,4 +1,5 @@
 import AboutMe from "./Components/AboutMe";
+import Experience from "./Components/Experience";
 import HeroContent from "./Components/HeroContent";
 
 
@@ -13,6 +14,7 @@ function App() {
       <div className="container mx-auto px-8">
        <HeroContent />
        <AboutMe />
+       <Experience/>
       </div>
     </div>
   )
