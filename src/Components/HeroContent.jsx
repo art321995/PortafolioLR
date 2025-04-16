@@ -15,7 +15,7 @@ const container = (delay) =>({
 
 const HeroContent = () => {
   return (
-    <div className="w-full p-6 md:p-2  lg:mt-20">
+    <div className="md:p-2 m-auto lg:m-20">
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mt-10">
           <div className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden">
             <motion.img

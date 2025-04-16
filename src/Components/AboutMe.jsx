@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 const AboutMe = () => {
     return (
-      <section className="w-full p-6 md:p-2  lg:mt-40">
+      <section className=" md:p-2 m-4 lg:m-20">
         <motion.h2
           whileInView={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: -100}}
