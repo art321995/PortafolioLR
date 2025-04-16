@@ -19,7 +19,7 @@ export const EXPERIENCIA = [
         empresa:"Coppel",
         tiempo: "2021 - 2023",
         puesto: "Lead iOS",
-        descripcion: "seguimiento a mas de 10 células de trabajo enfocado a iOS."
+        descripcion: "Seguimiento a mas de 10 células de trabajo enfocado a iOS."
     },
     {
         empresa:"Coppel",
