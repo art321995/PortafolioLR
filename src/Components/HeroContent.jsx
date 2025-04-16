@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
+import { motion } from "framer-motion";
 
 const enviarMensajeWhatsApp = () => {
   const mensaje = '¡Hola! Estoy interesado en tu perfil profesional';
@@ -6,18 +7,31 @@ const enviarMensajeWhatsApp = () => {
   window.open(url, '_blank');
 };
 
+const container = (delay) =>({
+  hidden:{y: -100, opacity:0},
+  visible:{y: 0, opacity: 1, transition:{duration: 1, delay} }
+});
+
+
 const HeroContent = () => {
   return (
     <div className="w-full p-6 md:p-2  lg:mt-20">
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mt-10">
           <div className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden">
-            <img
+            <motion.img
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: -100}}
+              transition={{duration: 1}}
               src="./src/assets/Image/Perfil.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex-1 text-center md:text-left">
+          <motion.div 
+            variants={container(0)}
+            initial="hidden"
+            animate="visible"
+            className="flex-1 text-center md:text-left">
             <h1 className="font-poppins font-bold text-4xl md:text-5xl text-blue-500 mb-4">
               Luis Rodríguez
             </h1>
@@ -47,7 +61,7 @@ const HeroContent = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
   );
