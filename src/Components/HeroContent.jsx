@@ -36,7 +36,7 @@ const HeroContent = () => {
               Luis Rodríguez
             </h1>
             <h2 className="font-inter  font-bold text-2xl md:text-3xl text-bold mb-4">
-              IOS Developer
+              iOS Developer
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:mt-2 text-sm text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 

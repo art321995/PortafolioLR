@@ -112,20 +112,20 @@ export const PROYECTOS = [
         descripcionP: "Aplicación móvil para jugar trivia y responder preguntas relacionadas con el SAT.",
         imagen: project7,
         actividad: "Creación y desarrollo de la aplicación.",
-        url: ""
+        url: "#"
     },
     {
         titulo: "ConCrédito Express",
         descripcionP: "Aplicación móvil para el manejo del negocio de las distribuidoras de ConCrédito Express.",
         imagen: project8,
         actividad: "Corrección de errores",
-        url: ""
+        url: "#"
     },
     {
         titulo: "Noroeste TV",
         descripcionP: "Aplicación para ver contenido multimedia y radio del Periódico Noroeste.",
         imagen: project9,
         actividad: "Corrección de errores",
-        url: ""
+        url: "#"
     }
 ];

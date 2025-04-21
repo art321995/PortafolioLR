@@ -8,25 +8,31 @@ const Projects = () => {
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
-        className="text-3xl text-center lg:text-5xl font-bold text-blue-500" >
+        className="text-3xl mb-4 md:mb-12 text-center lg:text-5xl font-bold text-blue-500 " >
           Proyectos
       </motion.h2>
       <div className="md:flex-wrap  grid  gap-3 p-4 md:grid-cols-3">
         {PROYECTOS.map((pro, index) => (
-          <div key={index} className="w-full  px-4">
-            <div className="text-center mt-10 md:mt-20 font-bold md:text-2xl">
-              <a href="">{pro.titulo}</a></div>
-            <div className="md:mt-4 md:px-4">{pro.descripcionP}</div>
-            <a href="">
+          <motion.div key={index} 
+            whileInView={{opacity: 1, y: 0}}
+            initial={{opacity: 0, y: 100}}
+            transition={{duration: 2}}
+            className="w-full  px-4 border-4 border-none border-blue-600 bg-gray-100 rounded-2xl">
+             <a href={pro.url}>
               <img
                 src={pro.imagen}
-                width={200}
-                height={200}
+                width={250}
+                height={250}
                 alt={pro.titulo}
-                className="m-6 mx-auto rounded"
+                className="m-6 mx-auto rounded-4xl transition-all duration-400 hover:scale-110"
               />
             </a>
-          </div>
+            <div className="text-center my-4 font-bold text-xl md:text-3xl hover:text-blue-400">
+              <a href={pro.url}>{pro.titulo}</a>
+            </div>
+            <div className="mb-4 md:px-4 text-lg md:text-xl">{pro.descripcionP}</div>
+            <div className="mb-4 text-base md:text-lg text-blue-500 text-center  ">{pro.actividad}</div>
+          </motion.div>
         ))}
       </div>
     </section>
