@@ -12,7 +12,7 @@ const Experience = () => {
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
         className="text-3xl lg:text-5xl font-bold text-blue-500">
-          Experiencia
+          Experiencia Laboral
       </motion.h2>
       <div className="md:space-y-4 p-6">
         {EXPERIENCIA.map((exp, index) => (

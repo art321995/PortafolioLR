@@ -3,6 +3,7 @@ import Education from "./Components/Education";
 import Experience from "./Components/Experience";
 import HeroContent from "./Components/HeroContent";
 import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
        <Experience/>
        <Education/>
        <Projects/>
+       <Skills/>
       </div>
     </div>
   )
