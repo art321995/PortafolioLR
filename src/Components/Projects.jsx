@@ -11,7 +11,7 @@ const Projects = () => {
         className="text-3xl mb-4 md:mb-12 text-center lg:text-5xl font-bold text-blue-500 " >
           Proyectos
       </motion.h2>
-      <div className="md:flex-wrap  grid  gap-3 p-4 md:grid-cols-3">
+      <div className="md:flex-wrap  grid grid-cols-2 gap-3 p-4 md:grid-cols-3">
         {PROYECTOS.map((pro, index) => (
           <motion.div key={index} 
             whileInView={{opacity: 1, y: 0}}

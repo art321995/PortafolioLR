@@ -129,3 +129,24 @@ export const PROYECTOS = [
         url: "#"
     }
 ];
+
+export const HABILIDADES =[
+    {
+        skill: "Swift"
+    },
+    {
+        skill: "UIKit"
+    },
+    {
+        skill: "SwiftUI"
+    },
+    {
+        skill: "CI/CD"
+    },
+    {
+        skill: "Firebase SDK"
+    },
+    {
+        skill: "Push Notifications"
+    }
+]
