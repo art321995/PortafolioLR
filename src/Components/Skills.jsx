@@ -27,13 +27,13 @@ const Skills = () => {
           className="text-3xl  my-10 md:mb-12 lg:text-5xl font-bold text-blue-500 " >
             Habilidades
         </motion.h2>
-        <div className="justify-around grid grid-cols-2 gap-5 md:gap-3 md:grid-cols-6 text-center">
+        <div className="justify-around grid grid-cols-2 gap-5 md:gap-3 md:grid-cols-3 text-center">
           {HABILIDADES.map((hab, index) => (
             <motion.div
               variants={iconVariants(2.5)}
               initial="initial"
               animate="animate" 
-              className="px-4 py-2 font-bold text-base rounded-2xl md:text-xl  bg-gray-100" key={index}>
+              className="px-4 py-2 font-bold text-base rounded-2xl md:text-2xl  bg-gray-100" key={index}>
               {hab.skill}
             </motion.div>
           ))}
