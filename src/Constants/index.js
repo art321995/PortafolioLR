@@ -1,13 +1,13 @@
 
-import project1 from "../assets/Image/Nanacafe.png";
-import project2 from "../assets/Image/Bcash.png";
-import project3 from "../assets/Image/AppCoppel.png";
-import project4 from "../assets/Image/Ordil.png";
-import project5 from "../assets/Image/Ired.png";
-import project6 from "../assets/Image/Isentinel.png";
-import project7 from "../assets/Image/SAT.png";
-import project8 from "../assets/Image/MiOficina.png";
-import project9 from "../assets/Image/Noroeste.png";
+import project1 from "../assets/img/Nanacafe.png";
+import project2 from "../assets/img/Bcash.png";
+import project3 from "../assets/img/AppCoppel.png";
+import project4 from "../assets/img/Ordil.png";
+import project5 from "../assets/img/Ired.png";
+import project6 from "../assets/img/Isentinel.png";
+import project7 from "../assets/img/SAT.png";
+import project8 from "../assets/img/MiOficina.png";
+import project9 from "../assets/img/Noroeste.png";
 
 export const ABOUT_TEXT = "Soy un desarrollador iOS con más de 10 años de experiencia especializado en aplicaciones con Swift y SwiftUI. A lo largo de mi carrera, he desempeñado diversos roles, desde desarrollador hasta chapter lead, gestionando y coordinando equipos de más de 25 desarrolladores. Mi trayectoria me ha permitido adquirir una sólida experiencia técnica y habilidades de liderazgo, siempre enfocado en crear soluciones innovadoras y de alta calidad.";
 
