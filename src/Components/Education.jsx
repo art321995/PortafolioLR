@@ -28,7 +28,7 @@ const Education = () => {
               <div>
                 <h3 className="font-poppins font-bold text-xl lg:text-2xl text-gray-800">{edu.escuela}</h3>
                 <p className="text-base lg:text-xl font-semibold text-blue-500 mt-2">{edu.año}</p>
-                <p className="text-base lg:text-xl mt-2 text-gray-700">{edu.carrera}</p>
+                <p className="text-base lg:text-lg mt-2 text-gray-700">{edu.carrera}</p>
               </div>
             </div>
           </motion.div>
