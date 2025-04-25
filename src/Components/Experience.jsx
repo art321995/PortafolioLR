@@ -28,8 +28,8 @@ const Experience = () => {
               <div>
                 <h3 className="font-poppins font-bold text-xl lg:text-2xl text-gray-800 ">{exp.empresa}</h3>
                 <p className="text-lg lg:text-xl font-semibold mt-2">{exp.puesto}</p>
-                <p className="text-base lg:text-lg font-bold text-blue-500 mt-2">{exp.tiempo}</p>
-                <p className="text-base lg:text-lg mt-2 text-gray-700">{exp.descripcion}</p>
+                <p className="text-base lg:text-lg font-semibold text-blue-500 mt-2">{exp.tiempo}</p>
+                <p className="text-base lg:text-base mt-2 text-gray-700">{exp.descripcion}</p>
               </div>
             </motion.div>
           </div>
