@@ -14,10 +14,10 @@ const Footer = () => {
     <div className="border-t-2 border-t-gray-100 md:p-2 m-auto lg:m-12">
       <div 
             className="flex-1 text-center m-10 md:text-left">
-            <h1 className="font-poppins font-bold text-4xl md:text-3xl text-blue-500 mb-4">
+            <h1 className="font-poppins font-bold text-2xl md:text-xl text-blue-500 mb-4">
               Luis Rodríguez
             </h1>
-            <h2 className="font-inter  font-bold text-2xl md:text-2xl text-bold mb-4">
+            <h2 className="font-inter  font-bold text-lg md:text-xl text-bold mb-4">
               iOS Developer
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:mt-2 text-sm text-gray-700">
