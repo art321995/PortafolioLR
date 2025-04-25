@@ -11,7 +11,7 @@ const Education = () => {
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
-        className="flex text-center pt-10 items-center md:p-2 m-4 lg:m-20 text-3xl lg:text-4xl font-bold text-blue-500" >
+        className="flex text-center pt-8 items-center md:p-2 m-4 lg:m-20 text-3xl lg:text-4xl font-bold text-blue-500" >
           Educación
       </motion.h2>
       <div className="m-auto flex">
