@@ -27,11 +27,11 @@ const Projects = () => {
                 className="m-6 mx-auto rounded-4xl transition-all duration-400 hover:scale-110"
               />
             </a>
-            <div className="text-center my-4 font-bold text-xl md:text-2xl hover:text-blue-400">
+            <div className="text-center my-4 font-bold text-lg md:text-xl hover:text-blue-400">
               <a href={pro.url}>{pro.titulo}</a>
             </div>
-            <div className="mb-4 md:px-4 text-base md:text-lg">{pro.descripcionP}</div>
-            <div className="mb-4 text-sm md:text-base text-blue-500 text-center  ">{pro.actividad}</div>
+            <div className="mb-4 md:px-4 text-sm md:text-base">{pro.descripcionP}</div>
+            <div className="mb-4 text-xs md:text-sm text-blue-500 text-center  ">{pro.actividad}</div>
           </motion.div>
         ))}
       </div>

@@ -24,7 +24,7 @@ const Skills = () => {
           whileInView={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: -100}}
           transition={{duration: 2}}
-          className="text-3xl  my-10 md:mb-12 lg:text-5xl font-bold text-blue-500 " >
+          className="text-3xl  my-10 md:mb-12 lg:text-4xl font-bold text-blue-500 " >
             Habilidades
         </motion.h2>
         <div className="justify-around grid grid-cols-2 gap-5 md:gap-3 md:grid-cols-3 text-center">
