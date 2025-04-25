@@ -33,7 +33,7 @@ const Skills = () => {
               variants={iconVariants(2.5)}
               initial="initial"
               animate="animate" 
-              className="px-4 py-2 font-bold text-base rounded-2xl md:text-2xl  bg-gray-100" key={index}>
+              className="px-4 py-2 font-bold text-sm rounded-2xl md:text-xl  bg-gray-100" key={index}>
               {hab.skill}
             </motion.div>
           ))}
