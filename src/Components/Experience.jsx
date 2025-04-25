@@ -11,7 +11,7 @@ const Experience = () => {
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
-        className="text-3xl lg:text-5xl font-bold text-blue-500">
+        className="text-3xl lg:text-4xl font-bold text-blue-500">
           Experiencia Laboral
       </motion.h2>
       <div className="md:space-y-4 p-6">
@@ -26,10 +26,10 @@ const Experience = () => {
                 <BriefcaseIcon size={26} className="text-primary" />
               </div>
               <div>
-                <h3 className="font-poppins font-bold text-2xl lg:text-3xl text-gray-800 ">{exp.empresa}</h3>
-                <p className="text-xl lg:text-2xl font-semibold mt-2">{exp.puesto}</p>
-                <p className="text-lg lg:text-xl font-bold text-blue-500 mt-2">{exp.tiempo}</p>
-                <p className="text-lg lg:text-xl mt-2 text-gray-700">{exp.descripcion}</p>
+                <h3 className="font-poppins font-bold text-xl lg:text-2xl text-gray-800 ">{exp.empresa}</h3>
+                <p className="text-lg lg:text-xl font-semibold mt-2">{exp.puesto}</p>
+                <p className="text-base lg:text-lg font-bold text-blue-500 mt-2">{exp.tiempo}</p>
+                <p className="text-base lg:text-lg mt-2 text-gray-700">{exp.descripcion}</p>
               </div>
             </motion.div>
           </div>
