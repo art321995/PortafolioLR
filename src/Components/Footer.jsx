@@ -20,27 +20,27 @@ const Footer = () => {
             <h2 className="font-inter  font-bold text-xl md:text-2xl text-bold mb-4">
               iOS Developer
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 text-sm md:text-base gap-2 md:mt-2 text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-2  gap-2 md:mt-2 text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
                  className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
                 <Mail size={24} className="text-primary" />
-                <span className='text-lg'>luuiz.rodriguez.lopez@gmail.com</span>
+                <span className='text-sm md:text-base'>luuiz.rodriguez.lopez@gmail.com</span>
               </a>
               <a onClick={enviarMensajeWhatsApp} className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
                 <Phone size={24} className="text-primary" />
-                <span className='text-lg'>+52 667451 0099</span>
+                <span className='text-sm md:text-base'>+52 667451 0099</span>
               </a>
               <div className="flex items-center gap-2 justify-center md:justify-start">
                 <MapPin size={24} className="text-primary" />
-                <span className='text-lg'>Culiacan, Sinaloa</span>
+                <span className='text-sm md:text-base'>Culiacan, Sinaloa</span>
               </div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4">
                   <div className="flex  items-center justify-center gap-4 md:justify-start">
                     <a href="https://github.com/luisrodriguezlopez" className="text-gray-700 hover:text-blue-500">
-                      <Github size={24} />
+                      <Github md:size={24}  size={16}/>
                     </a>
                     <a href="https://www.linkedin.com/in/luis-rodriguez-lopez-094118105/" className="text-gray-700 hover:text-blue-500">
-                      <Linkedin size={24} />
+                      <Linkedin md:size={24} size={16}/>
                     </a>
                   </div>
                   <div className="flex justify-center md:justify-end ">
