@@ -11,7 +11,7 @@ const enviarMensajeWhatsApp = () => {
 
 const Footer = () => {
   return (
-    <div className="border-t-2 border-t-gray-100 md:p-2 m-auto lg:m-12">
+    <div className="border-t-2 border-t-gray-100 md:p-2 m-auto ">
       <div 
             className="flex-1 text-center m-10 md:text-left">
             <h1 className="font-poppins font-bold text-2xl md:text-3xl text-blue-500 mb-4">
