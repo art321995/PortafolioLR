@@ -20,7 +20,7 @@ const Footer = () => {
             <h2 className="font-inter  font-bold text-xl md:text-2xl text-bold mb-4">
               iOS Developer
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:mt-2 text-xs text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-2 text-sm md:text-base gap-2 md:mt-2 text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
                  className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
                 <Mail size={24} className="text-primary" />
@@ -35,7 +35,7 @@ const Footer = () => {
                 <span className='text-lg'>Culiacan, Sinaloa</span>
               </div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4">
-                  <div className="flex text-base md:text-xl items-center justify-center gap-4 md:justify-start">
+                  <div className="flex  items-center justify-center gap-4 md:justify-start">
                     <a href="https://github.com/luisrodriguezlopez" className="text-gray-700 hover:text-blue-500">
                       <Github size={24} />
                     </a>
