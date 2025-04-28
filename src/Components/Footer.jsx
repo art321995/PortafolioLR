@@ -23,24 +23,24 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2  gap-2 md:mt-2 text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
                  className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
-                <Mail md:size={24} size={16} className="text-primary" />
-                <span className='text-sm md:text-xl'>luuiz.rodriguez.lopez@gmail.com</span>
+                <Mail  size={20} className="text-primary" />
+                <span className='text-sm md:text-lg'>luuiz.rodriguez.lopez@gmail.com</span>
               </a>
               <a onClick={enviarMensajeWhatsApp} className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
-                <Phone md:size={24} size={16} className="text-primary" />
-                <span className='text-sm md:text-xl'>+52 667451 0099</span>
+                <Phone  size={20} className="text-primary" />
+                <span className='text-sm md:text-lg'>+52 667451 0099</span>
               </a>
               <div className="flex items-center gap-2 justify-center md:justify-start">
-                <MapPin md:size={24} size={16} className="text-primary" />
-                <span className='text-sm md:text-xl'>Culiacan, Sinaloa</span>
+                <MapPin  size={20} className="text-primary" />
+                <span className='text-sm md:text-lg'>Culiacan, Sinaloa</span>
               </div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4">
                   <div className="flex  items-center justify-center gap-4 md:justify-start">
                     <a href="https://github.com/luisrodriguezlopez" className="text-gray-700 hover:text-blue-500">
-                      <Github md:size={24}  size={16}/>
+                      <Github  size={20}/>
                     </a>
                     <a href="https://www.linkedin.com/in/luis-rodriguez-lopez-094118105/" className="text-gray-700 hover:text-blue-500">
-                      <Linkedin md:size={24} size={16}/>
+                      <Linkedin size={20}/>
                     </a>
                   </div>
                   <div className="flex justify-center md:justify-end ">
