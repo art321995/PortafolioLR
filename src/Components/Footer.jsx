@@ -23,16 +23,16 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2  gap-2 md:mt-2 text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
                  className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
-                <Mail size={24} className="text-primary" />
-                <span className='text-sm md:text-base'>luuiz.rodriguez.lopez@gmail.com</span>
+                <Mail md:size={24} size={16} className="text-primary" />
+                <span className='text-sm md:text-xl'>luuiz.rodriguez.lopez@gmail.com</span>
               </a>
               <a onClick={enviarMensajeWhatsApp} className="flex items-center gap-2 justify-center md:justify-start hover:text-blue-500 hover:cursor-pointer">
-                <Phone size={24} className="text-primary" />
-                <span className='text-sm md:text-base'>+52 667451 0099</span>
+                <Phone md:size={24} size={16} className="text-primary" />
+                <span className='text-sm md:text-xl'>+52 667451 0099</span>
               </a>
               <div className="flex items-center gap-2 justify-center md:justify-start">
-                <MapPin size={24} className="text-primary" />
-                <span className='text-sm md:text-base'>Culiacan, Sinaloa</span>
+                <MapPin md:size={24} size={16} className="text-primary" />
+                <span className='text-sm md:text-xl'>Culiacan, Sinaloa</span>
               </div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4">
                   <div className="flex  items-center justify-center gap-4 md:justify-start">
