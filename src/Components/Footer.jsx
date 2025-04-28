@@ -17,7 +17,7 @@ const Footer = () => {
             <h1 className="font-poppins font-bold text-2xl md:text-3xl text-blue-500 mb-4">
               Luis Rodríguez
             </h1>
-            <h2 className="font-inter  font-bold text-2xl md:text-3xl text-bold mb-4">
+            <h2 className="font-inter  font-bold text-xl md:text-2xl text-bold mb-4">
               iOS Developer
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:mt-2 text-xs text-gray-700">
@@ -35,7 +35,7 @@ const Footer = () => {
                 <span className='text-lg'>Culiacan, Sinaloa</span>
               </div>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-4">
-                  <div className="flex items-center justify-center gap-4 md:justify-start">
+                  <div className="flex text-base md:text-xl items-center justify-center gap-4 md:justify-start">
                     <a href="https://github.com/luisrodriguezlopez" className="text-gray-700 hover:text-blue-500">
                       <Github size={24} />
                     </a>
