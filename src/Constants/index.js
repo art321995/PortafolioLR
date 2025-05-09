@@ -11,49 +11,95 @@ import project9 from "../assets/img/Noroeste.png";
 
 export const ABOUT_TEXT = "Soy un desarrollador iOS con más de 10 años de experiencia especializado en aplicaciones con Swift y SwiftUI. A lo largo de mi carrera, he desempeñado diversos roles, desde desarrollador hasta chapter lead, gestionando y coordinando equipos de más de 25 desarrolladores. Mi trayectoria me ha permitido adquirir una sólida experiencia técnica y habilidades de liderazgo, siempre enfocado en crear soluciones innovadoras y de alta calidad.";
 
-export const EXPERIENCIA = [
-    {
-        empresa:"Softtek",
-        tiempo: "2023 - Present",
-        puesto: "AMS Engennier",
-        descripcion: "Apoyo como desarrollador y chaptear lead de celulas de desarrollo enfocadas a iOS."
-    },
-    {
-        empresa:"Coppel",
-        tiempo: "2023 - 2023",
-        puesto: "Chapter Lead",
-        descripcion: "Chapter lead de un equipo de 30 desarrolladores."
-    },
-    {
-        empresa:"Coppel",
-        tiempo: "2021 - 2023",
-        puesto: "Lead iOS",
-        descripcion: "Seguimiento a mas de 10 células de trabajo enfocado a iOS."
-    },
-    {
-        empresa:"Coppel",
-        tiempo: "2019 - 2021",
-        puesto: "Senior iOS",
-        descripcion: "Integraciones de diferentes células, despliegues de desarrollos y seguimiento técnico de nuevas funcionalidades."
-    },
-    {
-        empresa:"Pegasus Control",
-        tiempo: "2017 - 2019",
-        puesto: "Junior iOS",
-        descripcion: "Colaboración en diferentes aplicaciones de la industria de energeticos, asi como diferentes startups internas."
-    },
-    {
-        empresa:"Soluciones Roket",
-        tiempo: "2015 - 2017",
-        puesto: "Junior iOS",
-        descripcion: "Colaboración en diferentes aplicaciones."
-    },
-    {
-        empresa:"Soluciones Roket",
-        tiempo: "2015 - 2016",
-        puesto: "Practicante iOS",
-        descripcion: "Colaboración en la aplicación de DpVale para deportenis."
-    }
+
+export const EXPERIENCIA_ES = [
+  {
+    empresa: "Softtek",
+    tiempo: "2023 - Presente",
+    puesto: "AMS Engineer",
+    descripcion: "Apoyo como desarrollador y chapter lead de células de desarrollo enfocadas a iOS."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2023 - 2023",
+    puesto: "Chapter Lead",
+    descripcion: "Chapter lead de un equipo de 30 desarrolladores."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2021 - 2023",
+    puesto: "Lead iOS",
+    descripcion: "Seguimiento a más de 10 células de trabajo enfocadas a iOS."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2019 - 2021",
+    puesto: "Senior iOS",
+    descripcion: "Integraciones de células, despliegues y seguimiento técnico."
+  },
+  {
+    empresa: "Pegasus Control",
+    tiempo: "2017 - 2019",
+    puesto: "Junior iOS",
+    descripcion: "Colaboración en aplicaciones de la industria energética y startups internas."
+  },
+  {
+    empresa: "Soluciones Roket",
+    tiempo: "2015 - 2017",
+    puesto: "Junior iOS",
+    descripcion: "Colaboración en diferentes aplicaciones."
+  },
+  {
+    empresa: "Soluciones Roket",
+    tiempo: "2015 - 2016",
+    puesto: "Practicante iOS",
+    descripcion: "Colaboración en la aplicación DpVale para Deportenis."
+  }
+];
+
+export const EXPERIENCIA_EN = [
+  {
+    empresa: "Softtek",
+    tiempo: "2023 - Present",
+    puesto: "AMS Engineer",
+    descripcion: "Support as developer and chapter lead of iOS-focused development teams."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2023 - 2023",
+    puesto: "Chapter Lead",
+    descripcion: "Chapter lead of a team of 30 developers."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2021 - 2023",
+    puesto: "iOS Lead",
+    descripcion: "Oversight of more than 10 iOS development squads."
+  },
+  {
+    empresa: "Coppel",
+    tiempo: "2019 - 2021",
+    puesto: "Senior iOS",
+    descripcion: "Integration, deployments, and technical follow-up of new features."
+  },
+  {
+    empresa: "Pegasus Control",
+    tiempo: "2017 - 2019",
+    puesto: "Junior iOS",
+    descripcion: "Collaboration on apps for the energy sector and internal startups."
+  },
+  {
+    empresa: "Soluciones Roket",
+    tiempo: "2015 - 2017",
+    puesto: "Junior iOS",
+    descripcion: "Collaboration on various applications."
+  },
+  {
+    empresa: "Soluciones Roket",
+    tiempo: "2015 - 2016",
+    puesto: "iOS Intern",
+    descripcion: "Worked on the DpVale app for Deportenis."
+  }
 ];
 
 export const EDUCACION =[

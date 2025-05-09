@@ -1,8 +1,13 @@
+import { useTranslation } from "react-i18next";
 import { BriefcaseIcon } from 'lucide-react';
-import { EXPERIENCIA } from '../Constants';
+import { EXPERIENCIA_EN, EXPERIENCIA_ES } from '../Constants';
 import { motion } from "motion/react"
 
 const Experience = () => {
+
+  const { t, i18n } = useTranslation("translate");
+  const experienciaData = i18n.language === "es" ? EXPERIENCIA_ES : EXPERIENCIA_EN;
+
   
 
   return (
@@ -12,10 +17,10 @@ const Experience = () => {
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
         className="text-3xl lg:text-4xl font-bold text-blue-500">
-          Experiencia Laboral
+        {t('experienceTitle')}
       </motion.h2>
       <div className="md:space-y-4 p-6">
-        {EXPERIENCIA.map((exp, index) => (
+       {experienciaData.map((exp, index) => (
           <div key={index} className="">
             <motion.div 
               whileInView={{opacity: 1, x: 0}}

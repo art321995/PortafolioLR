@@ -1,6 +1,11 @@
 {
         "rol":"Desarrollador iOS",
         "aboutMe": "Sobre Mi",
-        "aboutText": "Soy un desarrollador iOS con más de 10 años de experiencia especializado en aplicaciones con Swift y SwiftUI. A lo largo de mi carrera, he desempeñado diversos roles, desde desarrollador hasta chapter lead, gestionando y coordinando equipos de más de 25 desarrolladores. Mi trayectoria me ha permitido adquirir una sólida experiencia técnica y habilidades de liderazgo, siempre enfocado en crear soluciones innovadoras y de alta calidad."
-    
+        "aboutText": "Soy un desarrollador iOS con más de 10 años de experiencia especializado en aplicaciones con Swift y SwiftUI. A lo largo de mi carrera, he desempeñado diversos roles, desde desarrollador hasta chapter lead, gestionando y coordinando equipos de más de 25 desarrolladores. Mi trayectoria me ha permitido adquirir una sólida experiencia técnica y habilidades de liderazgo, siempre enfocado en crear soluciones innovadoras y de alta calidad.",
+        "experienceTitle": "Experiencia",
+        "experienceTime": "2023 - Presente"
+            
+        
+        
+        
 }
