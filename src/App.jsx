@@ -6,10 +6,8 @@ import HeroContent from "./Components/HeroContent";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
-
 function App() {
-
-
+  
   return (
     <div className="overflow-x-hidden text-gray-900 antialiased selection:bg-blue-500 selection:text-white">
       <div className="fixed top-0 -z-10 h-full w-full">

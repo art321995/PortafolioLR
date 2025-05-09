@@ -1,5 +1,8 @@
 import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
 import { motion } from "framer-motion";
+import {  useTranslation } from 'react-i18next';
+import { useState, useEffect } from "react";
+
 
 const enviarMensajeWhatsApp = () => {
   const mensaje = '¡Hola! Estoy interesado en tu perfil profesional';
@@ -11,11 +14,46 @@ const container = (delay) =>({
   hidden:{y: -100, opacity:0},
   visible:{y: 0, opacity: 1, transition:{duration: 1, delay} }
 });
+  
 
 
 const HeroContent = () => {
+  const { i18n } = useTranslation(["translate"]);
+  const [language, setLanguage] = useState(i18n.language);
+
+  useEffect(() => {
+    setLanguage(i18n.language);
+  }, [i18n.language]);
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setLanguage(lang);
+  };
+
+  const baseClass = "text-lg hover:cursor-pointer transition";
+  const activeClass = "font-bold underline text-blue-700";
+  const inactiveClass = "text-blue-500 hover:underline";
+  
   return (
+    <>
+    <div className="flex justify-end w-full gap-2 p-6">
+      <button
+        className={`${baseClass} ${language === "en" ? activeClass : inactiveClass}`}
+        onClick={() => changeLanguage("en")} >
+        English
+      </button>
+      <p className="text-blue-500 text-lg font-bold">/</p>
+      <button
+        className={`${baseClass} ${language === "es" ? activeClass : inactiveClass}`}
+        onClick={() => changeLanguage("es")}>
+        Español
+      </button>
+    </div>
+
+
+
     <div className="md:p-2 m-auto lg:m-20">
+      
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mt-10">
           <div className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden">
             <motion.img
@@ -33,7 +71,7 @@ const HeroContent = () => {
             animate="visible"
             className="flex-1 text-center md:text-left">
             <h1 className="font-poppins font-bold text-4xl md:text-5xl text-blue-500 mb-4">
-              Luis Rodríguez
+               Luis Rodríguez
             </h1>
             <h2 className="font-inter  font-bold text-2xl md:text-3xl text-bold mb-4">
               iOS Developer
@@ -64,6 +102,8 @@ const HeroContent = () => {
           </motion.div>
         </div>
       </div>
+    </>
+
   );
 }
 
