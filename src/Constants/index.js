@@ -102,11 +102,19 @@ export const EXPERIENCIA_EN = [
   }
 ];
 
-export const EDUCACION =[
+export const EDUCACION_ES =[
     {
         escuela: "Instituto Tecnológico de Culiacán",
         año: "2011 - 2016",
         carrera: "Ingeniería en Tecnologías de la Información y Comunicaciones"
+    }
+]
+
+export const EDUCACION_EN =[
+    {
+        escuela: "Technological Institute of Culiacán",
+        año: "2011 - 2016",
+        carrera: "Engineering in Information and Communication Technologies"
     }
 ]
 

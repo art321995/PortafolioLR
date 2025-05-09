@@ -6,7 +6,7 @@ import { motion } from "motion/react"
 const Experience = () => {
 
   const { t, i18n } = useTranslation("translate");
-  const experienciaData = i18n.language === "es" ? EXPERIENCIA_ES : EXPERIENCIA_EN;
+  const experienciaData = i18n.language === "es" ? EXPERIENCIA_ES : EXPERIENCIA_EN;
 
   
 
