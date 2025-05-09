@@ -50,7 +50,7 @@ const HeroContent = () => {
       </button>
     </div>
 
-    <div className="md:p-2 m-auto lg:m-20">
+    <div className="md:p-2 m-auto lg:m-10">
       
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mt-10">
           <motion.div 
