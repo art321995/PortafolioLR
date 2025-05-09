@@ -6,6 +6,7 @@ import HeroContent from "./Components/HeroContent";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
+
 function App() {
   
   return (

@@ -18,7 +18,7 @@ const container = (delay) =>({
 
 
 const HeroContent = () => {
-  const { i18n } = useTranslation(["translate"]);
+  const {t, i18n } = useTranslation(["translate"]);
   const [language, setLanguage] = useState(i18n.language);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const HeroContent = () => {
     setLanguage(lang);
   };
 
-  const baseClass = "text-lg hover:cursor-pointer transition";
+  const baseClass = "text-base hover:cursor-pointer transition font-semibold";
   const activeClass = "font-bold underline text-blue-700";
   const inactiveClass = "text-blue-500 hover:underline";
   
@@ -38,33 +38,32 @@ const HeroContent = () => {
     <>
     <div className="flex justify-end w-full gap-2 p-6">
       <button
-        className={`${baseClass} ${language === "en" ? activeClass : inactiveClass}`}
-        onClick={() => changeLanguage("en")} >
-        English
-      </button>
-      <p className="text-blue-500 text-lg font-bold">/</p>
-      <button
         className={`${baseClass} ${language === "es" ? activeClass : inactiveClass}`}
-        onClick={() => changeLanguage("es")}>
+        onClick={() => changeLanguage("es")} >
         Español
       </button>
+      <p className="text-blue-500 text-base font-bold">/</p>
+      <button
+        className={`${baseClass} ${language === "en" ? activeClass : inactiveClass}`}
+        onClick={() => changeLanguage("en")}>
+        English
+      </button>
     </div>
-
-
 
     <div className="md:p-2 m-auto lg:m-20">
       
       <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mt-10">
-          <div className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden">
-            <motion.img
-              whileInView={{opacity: 1, x: 0}}
-              initial={{opacity: 0, x: -100}}
-              transition={{duration: 1}}
+          <motion.div 
+            whileInView={{opacity: 1, x: 0}}
+            initial={{opacity: 0, x: -100}}
+            transition={{duration: 1}}
+            className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden">
+            <img
               src="./img/Perfil.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
           <motion.div 
             variants={container(0)}
             initial="hidden"
@@ -74,7 +73,7 @@ const HeroContent = () => {
                Luis Rodríguez
             </h1>
             <h2 className="font-inter  font-bold text-2xl md:text-3xl text-bold mb-4">
-              iOS Developer
+              {t("rol")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:mt-2 text-sm text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
