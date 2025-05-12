@@ -1,8 +1,12 @@
 {
         "rol":"iOS Developer",
+        "spanish" : "Spanish",
+        "english" : "English",
         "aboutMe": "About Me",
         "aboutText":"I'm an iOS developer with over 10 years of experience specializing in Swift and SwiftUI applications. Throughout my career, I've held various roles, from developer to chapter lead, managing and coordinating teams of over 25 developers. My background has allowed me to acquire solid technical experience and leadership skills, always focused on creating innovative, high-quality solutions.",
         "experienceTitle": "Experience",
-        "educacionTitle": "Education" 
-        
+        "educacionTitle": "Education",
+        "projects": "Projects",
+        "skills": "Skills",
+        "btnStart" : "Start"
 }

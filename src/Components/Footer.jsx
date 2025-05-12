@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone, Github, Linkedin, ArrowUp } from 'lucide-react';
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 
 const enviarMensajeWhatsApp = () => {
@@ -10,6 +11,8 @@ const enviarMensajeWhatsApp = () => {
 
 
 const Footer = () => {
+  const {t} = useTranslation("translate");
+
   return (
     <div className="border-t-2 border-t-gray-100 md:p-2 m-auto ">
       <div 
@@ -18,7 +21,7 @@ const Footer = () => {
               Luis Rodríguez
             </h1>
             <h2 className="font-inter  font-bold text-xl md:text-2xl text-bold mb-4">
-              iOS Developer
+              {t("rol")}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2  gap-2 md:mt-2 text-gray-700">
               <a href="mailto:luuiz.rodriguez.lopez@gmail.com?Subject=Me interesa tu Perfil Profesional" 
@@ -45,7 +48,7 @@ const Footer = () => {
                   </div>
                   <div className="flex justify-center md:justify-end ">
                     <a href="#" className="flex hover:text-blue-500 mt-4 text-base md:text-lg font-bold">
-                      Inicio <ArrowUp />
+                      {t("btnStart")} <ArrowUp />
                     </a>
                   </div>
               </div>

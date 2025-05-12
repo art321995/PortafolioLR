@@ -118,7 +118,7 @@ export const EDUCACION_EN =[
     }
 ]
 
-export const PROYECTOS = [
+export const PROYECTOS_ES = [
     {
         titulo: "Nana Café",
         descripcionP: "Mantenimiento y desarrollo del módulo de compra para la aplicación Nana Café.",
@@ -180,6 +180,71 @@ export const PROYECTOS = [
         descripcionP: "Aplicación para ver contenido multimedia y radio del Periódico Noroeste.",
         imagen: project9,
         actividad: "Corrección de errores",
+        url: "#"
+    }
+];
+export const PROYECTOS_EN = [
+    {
+        titulo: "Nana Café",
+        descripcionP: "Maintenance and development of the purchase module for the Nana Café application.",
+        imagen: project1,
+        actividad: "Creating a module in SwiftUI.",
+        url: "https://apps.apple.com/us/app/nana-caf%C3%A9/id6456399529"
+    },
+    {
+        titulo: "BCash",
+        descripcionP: "Application for registration and request for a BCASH line of credit.",
+        imagen: project2,
+        actividad: "Creation and development of the application in SwiftUI.",
+        url:"https://play.google.com/store/apps/details?id=com.bafar.b_cash&hl=es_MX&pli=1"
+    },
+    {
+        titulo: "Coppel App",
+        descripcionP: "Coppel mobile app for shopping, payments, and financial services.",
+        imagen: project3,
+        actividad: "App v1 - v7 released. More than 100 production releases. Continuous integrations and deployments.",
+        url: "https://apps.apple.com/mx/app/coppel-compras-en-l%C3%ADnea/id1267382794"
+    },
+    {
+        titulo: "ORDIL",
+        descripcionP: "Visitor registration software that offers complete, efficient, and accurate visitor control.",
+        imagen: project4,
+        actividad: "Visitor registration software that offers complete, efficient, and accurate visitor control.",
+        url:"https://apps.apple.com/mx/app/ordil-id/id1228342544"
+    },
+    {
+        titulo: "IRED",
+        descripcionP: "An application that helps you find full liters of gasoline and locate reliable stations in Mexico.",
+        imagen: project5,
+        actividad: "Application maintenance and improvements.",
+        url: ""
+    },
+    {
+        titulo: "ISentinel",
+        descripcionP: "Application for the intelligent and safe control of LP gas consumption.",
+        imagen: project6,
+        actividad: "Application maintenance and optimization.",
+        url: "https://apps.apple.com/us/app/isentinel-gas/id1339190738"
+    },
+    {
+        titulo: "Trivia SAT",
+        descripcionP: "Mobile app for playing trivia and answering SAT-related questions.",
+        imagen: project7,
+        actividad: "Creation and development of the application.",
+        url: "#"
+    },
+    {
+        titulo: "ConCrédito Express",
+        descripcionP: "Mobile application for managing the business of ConCrédito Express distributors.",
+        imagen: project8,
+        actividad: "Corrección de errores",
+        url: "#"
+    },
+    {
+        titulo: "Noroeste TV",
+        descripcionP: "Application for viewing multimedia and radio content from the Northwest Newspaper.",
+        imagen: project9,
+        actividad: "Bug fixes",
         url: "#"
     }
 ];

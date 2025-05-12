@@ -40,13 +40,13 @@ const HeroContent = () => {
       <button
         className={`${baseClass} ${language === "es" ? activeClass : inactiveClass}`}
         onClick={() => changeLanguage("es")} >
-        Español
+        {t("spanish")}
       </button>
       <p className="text-blue-500 text-base font-bold">/</p>
       <button
         className={`${baseClass} ${language === "en" ? activeClass : inactiveClass}`}
         onClick={() => changeLanguage("en")}>
-        English
+        {t("english")}
       </button>
     </div>
 

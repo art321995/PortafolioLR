@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { HABILIDADES } from "../Constants";
+import { useTranslation } from "react-i18next";
 
 const iconVariants = () => ({
   initial: {x: -14},
@@ -18,6 +19,8 @@ const iconVariants = () => ({
 
 const Skills = () => {
 
+   const {t} = useTranslation ("translate");
+
     return (
       <section className="md:p-2 m-4 lg:m-20">
         <motion.h2
@@ -25,7 +28,7 @@ const Skills = () => {
           initial={{opacity: 0, x: -100}}
           transition={{duration: 2}}
           className="text-3xl  my-10 md:mb-12 lg:text-4xl font-bold text-blue-500 " >
-            Habilidades
+            {t("skills")}
         </motion.h2>
         <div className="justify-around grid grid-cols-2 gap-5 md:gap-3 md:grid-cols-3 text-center">
           {HABILIDADES.map((hab, index) => (
