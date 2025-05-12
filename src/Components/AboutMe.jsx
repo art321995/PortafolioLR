@@ -15,7 +15,7 @@ const AboutMe = () => {
           whileInView={{opacity: 1, x: 0}}
           initial={{opacity: 0, x: -100}}
           transition={{duration: 2}}
-          className="text-3xl lg:text-4xl font-bold text-blue-500"> 
+          className="text-3xl lg:text-4xl font-bold text-blue-500 pt-8 lg:pt-0"> 
           {t('aboutMe')}
         </motion.h2> 
         <div className="p-6">
