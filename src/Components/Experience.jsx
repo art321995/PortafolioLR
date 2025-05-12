@@ -19,15 +19,15 @@ const Experience = () => {
         className="text-3xl lg:text-4xl font-bold text-blue-500">
         {t('experienceTitle')}
       </motion.h2>
-      <div className="md:space-y-4 p-6">
+      <div className="md:space-y-4 p-6 ">
        {experienciaData.map((exp, index) => (
           <div key={index} className="">
             <motion.div 
               whileInView={{opacity: 1, x: 0}}
               initial={{opacity: 0, x: 100}}
               transition={{duration: 2}}
-              className="flex items-start gap-4 mt-10">
-              <div className="p-1 bg-primary/10 rounded-full ">
+              className="flex items-start gap-4 md:mt-10 mt-4">
+              <div className="p-0 md:p-1 bg-primary/10 rounded-full ">
                 <BriefcaseIcon size={26} className="text-primary" />
               </div>
               <div>

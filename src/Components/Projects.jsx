@@ -13,7 +13,7 @@ const Projects = () => {
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity: 0, x: -100}}
         transition={{duration: 2}}
-        className="text-3xl mb-4 md:mb-12 text-center lg:text-4xl font-bold text-blue-500 " >
+        className="text-3xl mb-4 mt-10 md:mb-12 text-center lg:text-4xl font-bold text-blue-500 " >
           {t("projects")}
       </motion.h2>
       <div className="md:flex-wrap  grid grid-cols-2 gap-3 p-4 md:grid-cols-3">
