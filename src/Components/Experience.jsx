@@ -27,7 +27,7 @@ const Experience = () => {
               initial={{opacity: 0, x: 100}}
               transition={{duration: 2}}
               className="flex items-start gap-4 mt-10">
-              <div className="p-2 bg-primary/10 rounded-full ">
+              <div className="p-1 bg-primary/10 rounded-full ">
                 <BriefcaseIcon size={26} className="text-primary" />
               </div>
               <div>
